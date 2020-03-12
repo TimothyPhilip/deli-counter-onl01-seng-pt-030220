@@ -6,6 +6,9 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
-    puts "The line is currently: 1. #{katz_deli}"
+def take_a_number(katz_deli, line)
+  counter = 1
+  
+    puts "The line is currently: #{counter}.  #{katz_deli}"
+    counter += 1
 end
