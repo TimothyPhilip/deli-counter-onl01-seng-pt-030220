@@ -11,4 +11,5 @@ def take_a_number(katz_deli, line)
     katz_deli.each do |line|
     puts "The line is currently: #{counter}.  #{line}"
     counter += 1
+  end
 end
