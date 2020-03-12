@@ -14,5 +14,4 @@ def take_a_number(katz_deli, line)
     puts "The line is currently: #{counter}.  #{x}"
     counter += 1
   end
-  katz_deli_new
 end
