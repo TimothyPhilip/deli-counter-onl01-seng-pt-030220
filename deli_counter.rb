@@ -7,9 +7,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-    counter = 1
-    katz_deli.each do |line|
-    puts "The line is currently: #{counter}. #{line}"
-    counter += 1
-  end
+    
 end
