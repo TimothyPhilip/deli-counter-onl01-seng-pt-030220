@@ -8,8 +8,8 @@ end
 
 def take_a_number(katz_deli, line)
   counter = 1
-    katz_deli.each do |line|
-    puts "The line is currently: #{counter}.  #{line}"
+    line.each do |l|
+    puts "The line is currently: #{counter}.  #{l}"
     counter += 1
   end
 end
