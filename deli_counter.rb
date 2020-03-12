@@ -7,10 +7,12 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, line)
+  katz_deli_new = []
   counter = 1
-    katz_deli.push(line)
-    katz_deli.each do |x|
+    katz_deli_new << katz_deli.push(line)
+    katz_deli_new.each do |x|
     puts "The line is currently: #{counter}.  #{x}"
     counter += 1
   end
+  katz_deli_new
 end
