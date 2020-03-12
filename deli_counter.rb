@@ -7,5 +7,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-    puts 
+    puts "The line is currently: 1. #{katz_deli}"
 end
