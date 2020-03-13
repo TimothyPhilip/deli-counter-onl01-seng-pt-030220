@@ -10,7 +10,7 @@ def line(katz_deli)
     counter += 1
     
   end
-  puts "The line is currently:" + katz_deli_new
+  
 end
 
 def take_a_number(katz_deli, name)
