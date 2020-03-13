@@ -7,7 +7,7 @@ def line(katz_deli)
   end
   
   
-    puts "The line is currently: #{counter}. #{katz_deli}"
+    puts "The line is currently:" + katz_deli
     counter += 1
   end
 end
