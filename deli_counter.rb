@@ -21,5 +21,8 @@ end
 
 
 def now_serving(other_deli)
+  if other_deli > 0 
+    puts 
+  else
   puts "There is nobody waiting to be served!"
 end
