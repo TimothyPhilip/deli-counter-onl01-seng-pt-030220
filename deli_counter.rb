@@ -26,6 +26,6 @@ def now_serving(other_deli)
   end
   
   if katz_deli.length > 0
-    puts "currently serving #{other_deli.shift}"
+    puts "currently serving #{}"
   end
 end
