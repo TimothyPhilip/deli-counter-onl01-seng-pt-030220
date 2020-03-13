@@ -25,7 +25,6 @@ def now_serving(other_deli)
     puts "There is nobody waiting to be served!"
   end
   
-  if katz_deli.length > 0
-    puts "currently serving "
-  end
+
+
 end
