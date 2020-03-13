@@ -1,13 +1,11 @@
 katz_deli = []
   
 def line(katz_deli)
-  counter = 1
   katz_deli_new = []
   if katz_deli.length == 0
     puts "The line is currently empty."
   end
   katz_deli.each_with_index { |x, index| katz_deli_new << "#{index+1}. #{x}" }
-  counter += 1
  
   if katz_deli.length > 0 
      puts "The line is currently: " + katz_deli_new.join(" ")
@@ -19,5 +17,4 @@ def take_a_number(katz_deli,name)
   counter = 1
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
-
 end
