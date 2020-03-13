@@ -9,7 +9,7 @@ def line(katz_deli)
   katz_deli.each { |x| katz_deli_new << "#{counter}." + x }
     counter += 1
   end
-  puts "The line is currently: #{katz_deli_new}"
+   "The line is currently: #{katz_deli_new}"
 end
 
 def take_a_number(katz_deli, name)
