@@ -6,10 +6,6 @@ def line(katz_deli)
   end
 end
 
-def line(katz_deli)
-  counter = 1
-    katz_deli.each do |x|
-    puts "The line is currently: #{counter}.  #{x}"
-    counter += 1
-  end
+def take_a_number(katz_deli, name)
+    
 end
