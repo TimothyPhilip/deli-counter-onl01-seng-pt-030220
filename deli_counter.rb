@@ -6,7 +6,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   end
-  katz_deli.each do |x| puts katz_deli_new << "#{counter}" + x 
+  katz_deli.each_with_index { |x, index| }
   counter += 1
  
   #if katz_deli.length > 0 
