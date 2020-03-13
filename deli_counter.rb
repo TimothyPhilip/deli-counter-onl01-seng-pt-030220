@@ -21,8 +21,8 @@ end
 
 
 def now_serving(other_deli)
-  if other_deli > 0 
-    puts "Currently serving #{other_deli}."
+  if katz_deli > 0 
+    puts "Currently serving ."
   else
   puts "There is nobody waiting to be served!"
 end
