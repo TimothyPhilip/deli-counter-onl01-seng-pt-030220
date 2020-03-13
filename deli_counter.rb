@@ -21,5 +21,5 @@ end
 
 
 def now_serving(other_deli)
-  puts 
+  puts "There is nobody waiting to be served!"
 end
