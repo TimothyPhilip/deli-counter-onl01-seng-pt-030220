@@ -7,7 +7,7 @@ def line(katz_deli)
   else
   
   
-    puts "The line is currently:" + katz_deli
+    puts "The line is currently:" + katz_deli.toString
     counter += 1
   end
 end
