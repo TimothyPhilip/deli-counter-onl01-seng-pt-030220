@@ -16,5 +16,5 @@ end
   
   
 def take_a_number(katz_deli,name)
-  katz_deli.each_with_index { |n, index| "Welcome, #{name}. You are number #{index} in line."
+  katz_deli.each_with_index { |n, index| "Welcome, #{name}. You are number #{index} in line."}
 end
